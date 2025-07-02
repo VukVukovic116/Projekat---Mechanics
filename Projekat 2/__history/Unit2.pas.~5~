@@ -1,0 +1,36 @@
+unit Unit2;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, FMX.TabControl, FMX.Edit;
+
+type
+  TFmain = class(TForm)
+    tcMain: TTabControl;
+    tiLogin: TTabItem;
+    tiRegister: TTabItem;
+    bg_register: TImage;
+    bg_login: TImage;
+    Label2: TLabel;
+    Label1: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label3: TLabel;
+    Label4: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Fmain: TFmain;
+
+implementation
+
+{$R *.fmx}
+
+end.
