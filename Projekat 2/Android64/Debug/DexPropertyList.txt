@@ -1,3 +1,0 @@
-JavaFile=C:\Program Files\Eclipse Adoptium\jdk-17.0.9.9-hotspot\bin\java.exe
-DexerFile=h:\embacadero\bin\Android\dexer-1.0.0.jar
-MinApiLevel=23
