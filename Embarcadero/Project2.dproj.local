@@ -1,16 +1,2 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-<<<<<<< HEAD:Embarcadero/Project2.dproj.local
-    <Transaction>2025/06/26 13:23:31.000.068,=D:\Embarcadero\Projekat\Unit2.pas</Transaction>
-    <Transaction>2025/06/26 13:24:15.000.452,D:\Embarcadero\Projekat\Unit2.fmx=D:\Embarcadero\Projekat 2\Unit2.fmx</Transaction>
-    <Transaction>2025/06/26 13:24:15.000.452,D:\Embarcadero\Projekat\Unit2.pas=D:\Embarcadero\Projekat 2\Unit2.pas</Transaction>
-    <Transaction>2025/06/26 13:24:19.000.630,D:\Embarcadero\Projekat\Project2.dproj=D:\Embarcadero\Projekat 2\Project2.dproj</Transaction>
-=======
-    <Transaction>2025.06.26 13:23:31.000.068,=D:\Embarcadero\Projekat\Unit2.pas</Transaction>
-    <Transaction>2025.06.26 13:24:15.000.452,D:\Embarcadero\Projekat\Unit2.fmx=D:\Embarcadero\Projekat 2\Unit2.fmx</Transaction>
-    <Transaction>2025.06.26 13:24:15.000.452,D:\Embarcadero\Projekat\Unit2.pas=D:\Embarcadero\Projekat 2\Unit2.pas</Transaction>
-    <Transaction>2025.06.26 13:24:19.000.630,D:\Embarcadero\Projekat\Project2.dproj=D:\Embarcadero\Projekat 2\Project2.dproj</Transaction>
->>>>>>> 59b126ecbd32b9386ee4ac4ae44c6b04b4cc8126:Projekat 2/Project2.dproj.local
-  </Transactions>
-</BorlandProject>
+<BorlandProject/>
