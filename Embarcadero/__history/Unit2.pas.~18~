@@ -41,9 +41,16 @@ type
     Label8: TLabel;
     SignDugme: TCornerButton;
     SpeedButton1: TSpeedButton;
+    MainMenu: TTabItem;
+    SpeedButton2: TSpeedButton;
+    SignIn: TCornerButton;
+    Button1: TButton;
+    Button2: TButton;
     procedure Label5Click(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
+    procedure SignDugmeClick(Sender: TObject);
+    procedure dugmeClick(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -57,19 +64,25 @@ implementation
 
 {$R *.fmx}
 
-procedure TFmain.FormCreate(Sender: TObject);
+
+procedure TFmain.dugmeClick(Sender: TObject);
 begin
-   tcMain.TabIndex := 0;
+  dugme.Color := clBlue;
 end;
 
 procedure TFmain.Label5Click(Sender: TObject);
 begin
- tcMain.Next;
+ tcMain.next;
+end;
+
+procedure TFmain.SignDugmeClick(Sender: TObject);
+begin
+ tcMain.TabIndex := 2;
 end;
 
 procedure TFmain.SpeedButton1Click(Sender: TObject);
 begin
- tcMain.Previous;
+ tcMain.TabIndex := 0;
 end;
 
 end.

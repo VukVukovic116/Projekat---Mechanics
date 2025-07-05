@@ -722,7 +722,7 @@ object Fmain: TFmain
         Touch.InteractiveGestures = [LongTap, DoubleTap]
         Anchors = [akLeft, akRight, akBottom]
         StyleLookup = 'edLogin'
-        TabOrder = 7
+        TabOrder = 8
         AutoSelect = True
         TextSettings.Font.Size = 12.500000000000000000
         Position.X = 20.000000000000000000
@@ -849,7 +849,7 @@ object Fmain: TFmain
         TextSettings.Font.StyleExt = {00070000000000000004000000}
         TextSettings.HorzAlign = Trailing
         Text = 'Sign in '
-        TabOrder = 6
+        TabOrder = 7
       end
       object SignDugme: TCornerButton
         Anchors = [akLeft, akTop, akRight, akBottom]
@@ -883,6 +883,8 @@ object Fmain: TFmain
       StyleLookup = ''
       TabOrder = 0
       Text = 'MainMenu'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
       object SpeedButton2: TSpeedButton
         StyledSettings = [Family, FontColor]
         Images = Image
@@ -917,6 +919,24 @@ object Fmain: TFmain
         TabOrder = 1
         Text = 'Status vozila'
         TextSettings.Trimming = None
+        object Button3: TButton
+          Position.Y = 88.000000000000000000
+          Size.Width = 209.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Izvestaj'
+          TextSettings.Trimming = None
+          object Button4: TButton
+            Position.Y = 88.000000000000000000
+            Size.Width = 209.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            Text = 'Brojevi servisera'
+            TextSettings.Trimming = None
+          end
+        end
       end
     end
   end

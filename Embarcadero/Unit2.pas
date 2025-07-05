@@ -46,6 +46,8 @@ type
     SignIn: TCornerButton;
     Button1: TButton;
     Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
     procedure Label5Click(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
     procedure SignDugmeClick(Sender: TObject);
