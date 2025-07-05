@@ -1,6 +1,7 @@
 object Fmain: TFmain
   Left = 847
   Top = 0
+  ActiveControl = tiLogin
   Caption = 'MainForm'
   ClientHeight = 720
   ClientWidth = 360
@@ -17,7 +18,7 @@ object Fmain: TFmain
     Size.Width = 360.000000000000000000
     Size.Height = 720.000000000000000000
     Size.PlatformDefault = False
-    TabIndex = 1
+    TabIndex = 0
     TabOrder = 0
     TabPosition = None
     Sizes = (
@@ -30,7 +31,7 @@ object Fmain: TFmain
         item
         end>
       TextSettings.Trimming = None
-      IsSelected = False
+      IsSelected = True
       Size.Width = 8.000000000000000000
       Size.Height = 8.000000000000000000
       Size.PlatformDefault = False
@@ -242,7 +243,7 @@ object Fmain: TFmain
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = True
             StyledSettings = [Family, FontColor]
-            Position.X = 191.000000000000000000
+            Position.X = 260.000000000000000000
             Position.Y = 352.000000000000000000
             Size.Width = 73.000000000000000000
             Size.Height = 20.000000000000000000
@@ -403,7 +404,7 @@ object Fmain: TFmain
         item
         end>
       TextSettings.Trimming = None
-      IsSelected = True
+      IsSelected = False
       Size.Width = 8.000000000000000000
       Size.Height = 8.000000000000000000
       Size.PlatformDefault = False
@@ -717,7 +718,7 @@ object Fmain: TFmain
         Touch.InteractiveGestures = [LongTap, DoubleTap]
         Anchors = [akLeft, akRight, akBottom]
         StyleLookup = 'edLogin'
-        TabOrder = 5
+        TabOrder = 6
         AutoSelect = True
         TextSettings.Font.Size = 12.500000000000000000
         Position.X = 20.000000000000000000
@@ -844,7 +845,7 @@ object Fmain: TFmain
         TextSettings.Font.StyleExt = {00070000000000000004000000}
         TextSettings.HorzAlign = Trailing
         Text = 'Sign in '
-        TabOrder = 4
+        TabOrder = 5
       end
       object SignDugme: TCornerButton
         Anchors = [akLeft, akTop, akRight, akBottom]
