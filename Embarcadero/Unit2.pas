@@ -53,6 +53,10 @@ type
     Label10: TLabel;
     Label11: TLabel;
     Label12: TLabel;
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Image4: TImage;
     procedure Label5Click(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
     procedure SignDugmeClick(Sender: TObject);
