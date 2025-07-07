@@ -20,7 +20,6 @@ type
     Edit1: TEdit;
     Edit2: TEdit;
     Label3: TLabel;
-    Label4: TLabel;
     Label5: TLabel;
     Label6: TLabel;
     SB: TStyleBook;
@@ -38,21 +37,25 @@ type
     Glyph6: TGlyph;
     Edit7: TEdit;
     Glyph7: TGlyph;
-    Label8: TLabel;
     SignDugme: TCornerButton;
     SpeedButton1: TSpeedButton;
     MainMenu: TTabItem;
     SpeedButton2: TSpeedButton;
     SignIn: TCornerButton;
-    Button1: TButton;
-    Button2: TButton;
-    Button3: TButton;
-    Button4: TButton;
+    Label4: TLabel;
+    Label8: TLabel;
+    background: TImage;
+    dugme1: TRectangle;
+    Rectangle1: TRectangle;
+    Rectangle2: TRectangle;
+    Rectangle3: TRectangle;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
     procedure Label5Click(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
     procedure SignDugmeClick(Sender: TObject);
-    procedure dugmeClick(Sender: TObject);
-    procedure SpeedButton3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -66,11 +69,6 @@ implementation
 
 {$R *.fmx}
 
-
-procedure TFmain.dugmeClick(Sender: TObject);
-begin
-  dugme.Color := clBlue;
-end;
 
 procedure TFmain.Label5Click(Sender: TObject);
 begin
